@@ -4,6 +4,15 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+
+}
+h1{
+  color: black;
+  position: relative;
+  bottom: 800px;
+  left: 200px;
+  font-size: 5rem;
+  font-family: 'Ubuntu';
 }
 h3{
   margin: 10px;
@@ -18,7 +27,12 @@ a{
   color: white;
 }
 #topimg{
-width: 100%;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+#endpic{
+  width: 50%;
 }
 .icon{
   text-align: center;
@@ -30,6 +44,7 @@ width: 100%;
     padding: 10px;
     position: relative;
     right: 17px;
+    top: 0;
 }
 .icon-text{
 
@@ -43,6 +58,9 @@ width: 100%;
 .b3{
   background-color: #FEA501;
 }
+.badabox{
+  text-align: center;
+}
 .boxes3 div{
   display: inline-block;
   height: 280px;
@@ -50,11 +68,11 @@ width: 100%;
   margin: 0 20px;
   border-radius: 5px;
   position: relative;
-  bottom: 40px;
+  bottom: 150px;
 }
 .boxes3{
   width: 950px;
-  margin: 100px auto;
+  margin: 0 auto;
   background-color: black;
   text-align: center;
   display: inline-block;
@@ -94,13 +112,8 @@ width: 100%;
   color: white;
 }
 .end{
-  width: 600px;
-  height: 250px;
+  width: 800px;
+  height: 258px;
   background-color: #191919;
-  margin: 50px auto;
-}
-.end-pic{
-  width: 500px;
-  height: 200px;
-  margin: 20px auto;
+  margin: 0 auto 50px;
 }
